@@ -92,17 +92,53 @@ button a {
   margin-top: 0; 
 }
 
-.img-container img {
+img {
   border-radius: 15px;
   filter: grayscale(100%);
 }
 
-.img-container img:hover {
+img:hover {
   filter: grayscale(0%);
-  transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in;
+  transform: scale(1.05);
 }
 
 .btn-container {
   display:flex;
   gap: 25px;
+}
+
+.card-container {
+  display:flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.card {
+  border: 2px solid white;
+  padding: 50px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+.card i {
+  font-size: 60px;
+}
+
+.card i:hover {
+  color: #00bcd4;
+}
+
+#lang-title {
+  font-weight: normal;
+}
+
+#education {
+  display: grid;
+  margin: auto;
+  gap: 25px;
+}
+#education .card {
+  width: 350px;
 }
