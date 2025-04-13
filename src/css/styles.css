@@ -142,3 +142,7 @@ img:hover {
 #education .card {
   width: 350px;
 }
+
+#education .card :hover {
+  color: #00bcd4;
+}
