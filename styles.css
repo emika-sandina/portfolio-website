@@ -112,6 +112,7 @@ img:hover {
   display: flex;
   justify-content: space-between;
   margin: auto;
+  gap: 15px;
 }
 
 .card {
